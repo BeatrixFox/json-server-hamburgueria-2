@@ -1,0 +1,125 @@
+{
+  "users": [
+    {
+      "email": "kenzinho@mail.com",
+      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
+      "name": "Kenzinho",
+      "age": 38,
+      "id": 1
+    },
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$s/rEaQCKhsuWn8Y2DGYkkO2HbBAjnASyD8aTBeZe27PWhLG3dBuGa",
+      "name": "oliver",
+      "age": 32,
+      "id": 2
+    },
+    {
+      "email": "kenedy@mail.com",
+      "password": "$2a$10$O0p4CEVYpouDcTczXYQhOuIWRUO2juN9K2dbfZ/4SPhHhfd4tN.uW",
+      "checkPassword": "123456",
+      "name": "Oscar",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "name": "Burguer duplo",
+      "image": "assets/big-burguer-duplo.png",
+      "category": "Comida",
+      "price": "12.90"
+    },
+    {
+      "name": "X-burguer",
+      "image": "assets/burguer-1.webp",
+      "category": "Comida",
+      "price": "10.90"
+    },
+    {
+      "name": "Coca-cola lata",
+      "image": "assets/coca-cola-lata.jpg",
+      "category": "Bebidas",
+      "price": "6.00"
+    },
+    {
+      "name": "Burguer e fritas",
+      "image": "assets/combo-burger.jpg",
+      "category": "Comida",
+      "price": "18.50"
+    },
+    {
+      "name": "H20 - 350ml",
+      "image": "assets/h2O-bebida.jpeg",
+      "category": "Bebidas",
+      "price": "4.50"
+    },
+    {
+      "name": "Milkshake Morango",
+      "image": "assets/milkshake de morango.webp",
+      "category": "Bebidas",
+      "price": "10.00"
+    },
+    {
+      "name": "Milkshake Chocolate",
+      "image": "assets/milkshke de chocolate.jpg",
+      "category": "Bebidas",
+      "price": "10.00"
+    },
+    {
+      "name": "Refri de 600ml",
+      "image": "assets/refri de 600ml.webp",
+      "category": "Bebidas",
+      "price": "9.50"
+    },
+    {
+      "name": "Milkshake de Ovomaltine",
+      "image": "assets/shake-ovomaltine.jpg",
+      "category": "Bebidas",
+      "price": "11.00"
+    },
+    {
+      "name": "Suco de laranja",
+      "image": "assets/suco de laranja.png",
+      "category": "Bebidas",
+      "price": "6.50"
+    },
+    {
+      "name": "Suco de Morango",
+      "image": "assets/suco de morango.jpg",
+      "category": "Bebidas",
+      "price": "6.50"
+    },
+    {
+      "name": "X-bacon",
+      "image": "assets/x-bacon.jpg",
+      "category": "Comida",
+      "price": "15.90"
+    },
+    {
+      "name": "X-salada",
+      "image": "assets/x-salada.png",
+      "category": "Bebidas",
+      "price": "12.90"
+    }
+  ],
+  "cart": [
+    {
+      "name": "X-burguer",
+      "image": "assets/burguer-1.webp",
+      "category": "Comida",
+      "price": "10.90",
+      "quant": 3,
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "name": "X-burguer",
+      "image": "assets/burguer-1.webp",
+      "category": "Comida",
+      "price": "10.90",
+      "quant": 1,
+      "userId": 3,
+      "id": 5
+    }
+  ]
+}
